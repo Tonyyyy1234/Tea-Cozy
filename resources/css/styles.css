@@ -46,7 +46,7 @@ nav span {
 
 /*mission section*/
 
-.mission {
+#mission {
   margin: 0 auto;
   width: 1200px;
   height: 700px;
@@ -65,10 +65,87 @@ nav span {
   background-color: black;
 }
 
-/*.handPicked h2, h4 {
-  border: solid red;
+.handPicked h2 {
+  margin-bottom: -10px;
 }
 
-/*.handPicked h2 {}
-  margin-bottom: 0px;
-}*/
+/*Tea of the Month Section*/
+
+#month {
+  width: 1000px;
+  margin: 80px auto 0px auto;
+}
+
+.teaContainer {
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.teaContainer img {
+  width: 300px;
+  height: 200px;
+}
+
+.teaContainer h4 {
+  margin-top: 10px;
+}
+
+.tea {
+  margin: 0px 15px;
+}
+
+/*Locations Section*/
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  margin: 40px auto 0px auto;
+  background-position: 100% 22%;
+  width: 1200px;
+  height: 500px;
+}
+
+#locations h2 {
+  position: relative;
+  top: 51px;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: -68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin: 0px 20px;
+  width: 300px;
+  height: 300px;
+}
+
+/*footer*/
+
+footer {
+  height: 200px;
+}
+
+footer h2{
+    margin-top: 10px;
+}
+
+.email a{
+  text-decoration: none;
+}
+
+.copy {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 0px;
+}
